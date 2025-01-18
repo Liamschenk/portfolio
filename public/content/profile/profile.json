@@ -1,0 +1,50 @@
+{
+  "about": {
+    "name": "Liam Schenk",
+    "description": "Hallo, ich bin Liam. Ich interessiere mich sehr für Grafik- und Poster design. Ich höre gerne Musik und Podcasts."
+  },
+  "contact": [
+    {
+      "name": "E-Mail",
+      "handle": "Liam.schenk@bluewin.ch",
+      "url": "mailto:liam.schenk@bluewin.ch"
+    },
+    {
+      "name": "LinkedIn",
+      "handle": "Liam Schenk",
+      "url": "http://www.linkedin.com/in/liamschenk"
+    },
+    {
+      "name": "Are.na",
+      "handle": "Liam Schenk",
+      "url": "https://www.are.na/liam-schenk"
+    }
+  ],
+  "experience": [
+    {
+      "name": "Mediamatiker EFZ bei Swisscom",
+      "timespan": "2021 — Jetzt",
+      "location": "Bern"
+    }
+  ],
+  "education": [
+    {
+      "name": "Mediamatiker EFZ bei BBZ CFP Biel-Bienne",
+      "timespan": "2021 — Jetzt",
+      "location": "Biel/Bienne"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Information",
+      "description": "Zurzeit arbeite ich an verschiedenen kleineren Projekten. Diese wirst du in Zukunft hier finden. Melde dich gerne bei mir, wenn du Fragen oder Interesse hast.",
+      "timespan": "Zurzeit",
+      "attachments": [
+            {
+              "type": "image",
+              "url": "/content/media/information.png"
+            }
+          ]
+    }
+  ]
+}

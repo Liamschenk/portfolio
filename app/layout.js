@@ -1,16 +1,14 @@
-import "./Styles.css";
+import "./globals.css";
 
 export const metadata = {
-  title: "Liam Schenk – Portfolio",
+  title: "Liam Schenk — Portfolio",
   description: "Portfolio von Liam Schenk, Mediamatiker in Ausbildung.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

@@ -1,23 +1,21 @@
 {
-  "name": "bootstrap-sites-export",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "next": "15.1.0",
-    "@fontsource-variable/inter": "latest",
-    "marked": "15.0.3",
-    "react-slick": "0.30.2",
-    "react-swipeable": "7.0.2",
-    "readcv": "0.1.5",
-    "slick-carousel": "1.8.1",
-    "url-loader": "4.1.1"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.1.5"
+  },
+  "devDependencies": {
+    "eslint": "^9",
+    "eslint-config-next": "15.1.5",
+    "@eslint/eslintrc": "^3"
   }
 }
