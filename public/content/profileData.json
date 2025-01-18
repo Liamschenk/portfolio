@@ -1,0 +1,256 @@
+{
+  "general": {
+    "profilePhoto": "/content/media/profilePhoto.jpg",
+    "username": "liamschenk",
+    "displayName": "Liam Schenk",
+    "profession": "Mediamatiker in Ausbildung",
+    "location": "Bern",
+    "pronouns": null,
+    "byline": "Mediamatiker in Ausbildung in Bern",
+    "website": "https://liamschenk.ch",
+    "websiteURL": "https://liamschenk.ch",
+    "about": "Hallo, ich bin Liam. Ich interessiere mich sehr für Grafik- und Poster design. Ich höre gerne Musik und Podcasts.",
+    "status": {
+      "text": null,
+      "emoji": null,
+      "timestamp": null
+    },
+    "sectionOrder": [
+      "Projects",
+      "Side Projects",
+      "Work Experience",
+      "Education",
+      "Features",
+      "Volunteering",
+      "Contact",
+      "Exhibitions",
+      "Speaking",
+      "Writing",
+      "Awards",
+      "Certifications",
+      "Teams"
+    ]
+  },
+  "projects": [
+    {
+      "id": "KdXnkPLXQ1PIpSJVqqPg",
+      "year": "Ongoing",
+      "heading": "Information",
+      "url": null,
+      "collaborators": [],
+      "description": "Zurzeit arbeite ich an verschiedenen kleineren Projekten. Diese wirst du in Zukunft hier finden. Melde dich gerne bei mir, wenn du Fragen oder Interesse hast.",
+      "attachments": [
+        {
+          "type": "image",
+          "width": 1920,
+          "height": 1920,
+          "url": "/content/media/Information.png"
+        }
+      ],
+      "type": "project",
+      "title": "Information",
+      "company": ""
+    }
+  ],
+  "sideProjects": [],
+  "exhibitions": [],
+  "talks": [],
+  "writing": [],
+  "awards": [],
+  "features": [],
+  "workExperience": [
+    {
+      "id": "aFQTZYjgO2r8aDxI6QYp",
+      "year": "2021 — Now",
+      "heading": "Mediamatiker EFZ at Swisscom",
+      "url": null,
+      "collaborators": [],
+      "description": "In meiner Lehre als Mediamatiker habe ich in verschiedenen Abteilungen von Swisscom mitgearbeitet und dabei Erfahrungen in allen Bereichen von Multimedia gesammelt.\n\n* Ich habe diverse Multimedia-Projekte geleitet und bei Video- sowie Fotoproduktionen mitgewirkt.\n\n* Ich habe physische Produkte konzipiert und umgesetzt.\n\n* Ich habe Erfahrungen im Webdesign gesammelt und mir Kenntnisse in verschiedenen CMS und Website-Buildern angeeignet.",
+      "attachments": [],
+      "type": "workExperience",
+      "title": "Mediamatiker EFZ",
+      "company": "Swisscom",
+      "location": "Bern"
+    }
+  ],
+  "volunteering": [
+    {
+      "id": "YeJNspJr4eJcyrsaP32Z",
+      "year": "2023 — 2023",
+      "heading": "First Steps at Swisscom",
+      "url": "https://www.linkedin.com/posts/swisscom_lehrstart-lehre-ausbildung-activity-7095308145530413057-_mBx?utm_source=share&utm_medium=member_desktop",
+      "collaborators": [],
+      "description": "Im August 2023 habe ich bei beiden First Steps der Swisscom unterstützt, wo ich die neuen Lernenden in das Unternehmen eingeführt und ihnen wichtige Informationen sowie nützliche Tipps weitergegeben habe.\n\n* Ich habe die neuen Lernenden beim Einrichten ihrer IT-Geräte angeleitet und unterstützt.\n\n* Ich habe Präsentationen zu verschiedenen Themen gehalten und mein Wissen weitergegeben.",
+      "attachments": [
+        {
+          "type": "image",
+          "width": 2048,
+          "height": 1363,
+          "url": "/content/media/First-Steps-at-Swisscom-1.jpg"
+        },
+        {
+          "type": "image",
+          "width": 2048,
+          "height": 1363,
+          "url": "/content/media/First-Steps-at-Swisscom-2.jpg"
+        }
+      ],
+      "type": "volunteering",
+      "title": "First Steps",
+      "organization": "Swisscom",
+      "location": "Bern"
+    }
+  ],
+  "education": [
+    {
+      "id": "b5MYkleZuNt0v4y1SyiV",
+      "year": "2021 — Now",
+      "heading": "Mediamatiker EFZ at BBZ CFP Biel-Bienne",
+      "url": "https://bbz-cfp.ch/de",
+      "collaborators": [],
+      "description": "",
+      "attachments": [],
+      "type": "education",
+      "degree": "Mediamatiker EFZ",
+      "school": "BBZ CFP Biel-Bienne",
+      "location": "Biel/Bienne"
+    }
+  ],
+  "certifications": [],
+  "contact": [
+    {
+      "id": "m5enyLjcMtsUOEFLnbGU",
+      "platform": "Email",
+      "handle": "liam.schenk@bluewin.ch",
+      "url": "mailto:liam.schenk@bluewin.ch"
+    },
+    {
+      "id": "tjYvDShsY0S6y00BH5bJ",
+      "platform": "LinkedIn",
+      "handle": "Liam Schenk",
+      "url": "http://www.linkedin.com/in/liamschenk"
+    },
+    {
+      "id": "7i1LcX73AmvoVeG0msIZ",
+      "platform": "Are.na",
+      "handle": "Liam Schenk",
+      "url": "https://www.are.na/liam-schenk"
+    }
+  ],
+  "allCollections": [
+    {
+      "name": "Projects",
+      "items": [
+        {
+          "id": "KdXnkPLXQ1PIpSJVqqPg",
+          "year": "Ongoing",
+          "heading": "Information",
+          "url": null,
+          "collaborators": [],
+          "description": "Zurzeit arbeite ich an verschiedenen kleineren Projekten. Diese wirst du in Zukunft hier finden. Melde dich gerne bei mir, wenn du Fragen oder Interesse hast.",
+          "attachments": [
+            {
+              "type": "image",
+              "width": 1920,
+              "height": 1920,
+              "url": "/content/media/Information.png"
+            }
+          ],
+          "type": "project",
+          "title": "Information",
+          "company": ""
+        }
+      ]
+    },
+    {
+      "name": "Work Experience",
+      "items": [
+        {
+          "id": "aFQTZYjgO2r8aDxI6QYp",
+          "year": "2021 — Now",
+          "heading": "Mediamatiker EFZ at Swisscom",
+          "url": null,
+          "collaborators": [],
+          "description": "In meiner Lehre als Mediamatiker habe ich in verschiedenen Abteilungen von Swisscom mitgearbeitet und dabei Erfahrungen in allen Bereichen von Multimedia gesammelt.\n\n* Ich habe diverse Multimedia-Projekte geleitet und bei Video- sowie Fotoproduktionen mitgewirkt.\n\n* Ich habe physische Produkte konzipiert und umgesetzt.\n\n* Ich habe Erfahrungen im Webdesign gesammelt und mir Kenntnisse in verschiedenen CMS und Website-Buildern angeeignet.",
+          "attachments": [],
+          "type": "workExperience",
+          "title": "Mediamatiker EFZ",
+          "company": "Swisscom",
+          "location": "Bern"
+        }
+      ]
+    },
+    {
+      "name": "Education",
+      "items": [
+        {
+          "id": "b5MYkleZuNt0v4y1SyiV",
+          "year": "2021 — Now",
+          "heading": "Mediamatiker EFZ at BBZ CFP Biel-Bienne",
+          "url": "https://bbz-cfp.ch/de",
+          "collaborators": [],
+          "description": "",
+          "attachments": [],
+          "type": "education",
+          "degree": "Mediamatiker EFZ",
+          "school": "BBZ CFP Biel-Bienne",
+          "location": "Biel/Bienne"
+        }
+      ]
+    },
+    {
+      "name": "Volunteering",
+      "items": [
+        {
+          "id": "YeJNspJr4eJcyrsaP32Z",
+          "year": "2023 — 2023",
+          "heading": "First Steps at Swisscom",
+          "url": "https://www.linkedin.com/posts/swisscom_lehrstart-lehre-ausbildung-activity-7095308145530413057-_mBx?utm_source=share&utm_medium=member_desktop",
+          "collaborators": [],
+          "description": "Im August 2023 habe ich bei beiden First Steps der Swisscom unterstützt, wo ich die neuen Lernenden in das Unternehmen eingeführt und ihnen wichtige Informationen sowie nützliche Tipps weitergegeben habe.\n\n* Ich habe die neuen Lernenden beim Einrichten ihrer IT-Geräte angeleitet und unterstützt.\n\n* Ich habe Präsentationen zu verschiedenen Themen gehalten und mein Wissen weitergegeben.",
+          "attachments": [
+            {
+              "type": "image",
+              "width": 2048,
+              "height": 1363,
+              "url": "/content/media/First-Steps-at-Swisscom-1.jpg"
+            },
+            {
+              "type": "image",
+              "width": 2048,
+              "height": 1363,
+              "url": "/content/media/First-Steps-at-Swisscom-2.jpg"
+            }
+          ],
+          "type": "volunteering",
+          "title": "First Steps",
+          "organization": "Swisscom",
+          "location": "Bern"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "items": [
+        {
+          "id": "m5enyLjcMtsUOEFLnbGU",
+          "platform": "Email",
+          "handle": "liam.schenk@bluewin.ch",
+          "url": "mailto:liam.schenk@bluewin.ch"
+        },
+        {
+          "id": "tjYvDShsY0S6y00BH5bJ",
+          "platform": "LinkedIn",
+          "handle": "Liam Schenk",
+          "url": "http://www.linkedin.com/in/liamschenk"
+        },
+        {
+          "id": "7i1LcX73AmvoVeG0msIZ",
+          "platform": "Are.na",
+          "handle": "Liam Schenk",
+          "url": "https://www.are.na/liam-schenk"
+        }
+      ]
+    }
+  ]
+}
