@@ -132,7 +132,7 @@ export default function Projects({ data, activeProject, handleProjectClick }) {
                     alt={`Project image ${index + 1}`}
                   />
                 ) : attachment.type === "video" ? (
-                  <video key={index} controls>
+                  <video key={index} autoPlay muted loop playsInline>
                     <source src={attachment.url} type="video/mp4" />
                   </video>
                 ) : null

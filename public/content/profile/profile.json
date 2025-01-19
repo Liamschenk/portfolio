@@ -41,9 +41,39 @@
   ],
   "projects": [
     {
+      "name": "Samsung Galaxy Ring — Flyer",
+      "description": "Für den neuen Samsung Galaxy Ring habe ich einen doppelseitigen Flyer gestaltet, der in allen Swisscom Shops ausliegt. Der Flyer informiert Kunden über das Sizing Kit, das sie vorab nutzen müssen, um die passende Grösse zu finden.",
+      "timespan": "2024",
+      "attachments": [
+            {
+              "type": "image",
+              "url": "/content/media/galaxy-ring-1.png"
+            },
+            {
+              "type": "image",
+              "url": "/content/media/galaxy-ring-2.png"
+            }
+          ]
+    },
+    {
+      "name": "Glücksmaschine — Animation & Screensaver",
+      "description": "Für den Swisscom Shop Cornavin habe ich eine Animation für die Glücksmaschine und einen Screensaver erstellt. Vor Ort konnten Kunden den QR-Code scannen und tolle Preise gewinnen.",
+      "timespan": "2024",
+      "attachments": [
+            {
+              "type": "video",
+              "url": "/content/media/gluecksmaschine-1.mp4"
+            },
+            {
+              "type": "image",
+              "url": "/content/media/gluecksmaschine-2.png"
+            }
+          ]
+    },
+    {
       "name": "Liam Schenk — Portfolio",
-      "description": "Dieses Portfolio wurde innerhalb eines Tages mit der Hilfe von ChatGPT und viel Geduld erstellt. Die Inhalte werden dynamisch aus einer JSON-Datei geladen und können dank Next.js schnell und unkompliziert angepasst oder erweitert werden.",
-      "timespan": "2025",
+      "description": "Dieses Portfolio habe ich innerhalb eines Tages mit der Hilfe von ChatGPT und viel Geduld erstellt. Die Inhalte werden dynamisch aus einer JSON-Datei geladen und können dank Next.js schnell und unkompliziert angepasst oder erweitert werden.",
+      "timespan": "Fortlaufend",
       "attachments": [
             {
               "type": "image",
