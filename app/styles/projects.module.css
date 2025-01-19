@@ -13,13 +13,15 @@
   width: 95%;
   margin-left: 5%;
   max-height: 0;
+  opacity: 0;
   overflow: hidden;
-  transition: max-height 0.25s ease-out;
+  transition: max-height 0.25s ease-out, opacity 0.25s ease-out;
 }
 
 .contentOpen {
   max-height: 1000px;
-  transition: max-height 0.25s ease-in;
+  opacity: 1;
+  transition: max-height 0.25s ease-in, opacity 0.25s ease-in;
 }
 
 .description {
@@ -30,17 +32,33 @@
   display: flex;
   gap: var(--spacing-regular);
   overflow-x: auto;
+  cursor: grab;
   scrollbar-width: none; /* Firefox */
+  user-select: none; /* Prevent text and image selection */
+  -webkit-user-drag: none;
 }
 
 .slideshow::-webkit-scrollbar {
   display: none; /* Chrome, Safari, and Edge */
 }
 
+.slideshow.dragging {
+  cursor: grabbing;
+}
+
 .slideshow img,
 .slideshow video {
   height: 450px;
   width: auto;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.25s ease-out;
+}
+
+.contentOpen .slideshow img,
+.contentOpen .slideshow video {
+  opacity: 1;
+  transition: opacity 0.25s ease-out;
 }
 
 /* Transition states */
