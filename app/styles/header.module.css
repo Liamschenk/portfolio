@@ -1,0 +1,16 @@
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.listItem {
+  list-style: none;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+/* Smartphone breakpoint */
+@media (max-width: 480px) {
+}

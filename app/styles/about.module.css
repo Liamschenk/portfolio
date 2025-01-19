@@ -1,0 +1,41 @@
+.description {
+  width: 45%;
+}
+
+.sectionGrid {
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+.about a {
+  text-decoration: underline;
+}
+
+.about a:hover {
+  text-decoration: none;
+}
+
+/* Transition states */
+.section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.sectionActive {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Smartphone breakpoint */
+@media (max-width: 480px) {
+  .description {
+    width: 85%;
+  }
+
+  .sectionGrid {
+    display: flex;
+    gap: var(--spacing-regular);
+    flex-wrap: wrap;
+  }
+}

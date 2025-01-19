@@ -1,7 +1,7 @@
 {
   "about": {
     "name": "Liam Schenk",
-    "description": "Hallo, ich bin Liam. Ich interessiere mich sehr für Grafik- und Poster design. Ich höre gerne Musik und Podcasts."
+    "description": "Hi, ich bin Liam. Ich interessiere mich sehr für Grafik- und Poster design. Ich höre gerne Musik und Podcasts."
   },
   "contact": [
     {
@@ -36,13 +36,17 @@
   ],
   "projects": [
     {
-      "name": "Information",
-      "description": "Zurzeit arbeite ich an verschiedenen kleineren Projekten. Diese wirst du in Zukunft hier finden. Melde dich gerne bei mir, wenn du Fragen oder Interesse hast.",
-      "timespan": "Zurzeit",
+      "name": "Liam Schenk — Portfolio",
+      "description": "Dieses Portfolio wurde innerhalb eines Tages mit der Hilfe von ChatGPT und viel Geduld erstellt. Die Inhalte werden dynamisch aus einer JSON-Datei geladen und können dank Next.js schnell und unkompliziert angepasst oder erweitert werden.",
+      "timespan": "2025",
       "attachments": [
             {
               "type": "image",
-              "url": "/content/media/information.png"
+              "url": "/content/media/portfolio-1.png"
+            },
+            {
+              "type": "image",
+              "url": "/content/media/portfolio-2.png"
             }
           ]
     }
