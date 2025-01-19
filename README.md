@@ -1,15 +1,17 @@
-## Liam Schenk – Portfolio
+## Liam Schenk — Portfolio
 
-Hallo, hier findest du den Source Code für mein [Portfolio](https://liamschenk.ch). Das Ziel war es, mein bereits bestehendes Portfolio möglichst einfach nachzubauen. Da der Content der Website direkt aus dem profile.json entnommen wird, kann ich dieses in Zukunft einfach mit neuen Projekten oder Berufserfahrungen ergänzen.
+![Portfolio](https://github.com/liamschenk/Portfolio/blob/main/public/content/media/portfolio-1.png)
+
+Hier findest du den Quellcode für meine persönliche Website. Mein Ziel war es, mein altes Portfolio so einfach und übersichtlich wie möglich nachzubauen. Der gesamte Inhalt der Seite wird direkt aus der `profile.json` geladen, was es mir ermöglicht, neue Projekte oder Berufserfahrungen schnell und unkompliziert hinzuzufügen.
 
 ## Erstellt mit
 
-Zum Erstellen dieses Portfolios habe ich die folgenden Ressourcen verwendet.
+Dieses Portfolio wurde mithilfe der folgenden Technologien und Tools realisiert:
 
-- [Next.js](https://nextjs.org) für das einfache Einbinden der dynamischen Inhalte mit JavaScript und das einfache Aufsetzen eines Projekts.
-- [GitHub](https://github.com) zum Ablegen der Projektdateien und zur einfachen Iteration.
-- [Vercel](https://vercel.com/), um die Website zu hosten und bei neuen Pushes direkt zu aktualisieren.
+- **[Next.js](https://nextjs.org)**: Für die dynamische Integration der Inhalte und das schnelle Aufsetzen des Projekts.
+- **[GitHub](https://github.com)**: Zum Speichern und Versionieren der Projektdateien sowie für eine einfache Weiterentwicklung.
+- **[Vercel](https://vercel.com/)**: Zum Hosten der Website mit automatischen Deployments bei jedem neuen Push.
 
 ## Feedback
 
-Es freut mich, hast du den Weg auf mein Portfolio gefunden. Ich bin immer offen für Feedback und neue Inputs. Falls dir etwas auffällt, das nicht richtig aussieht, kannst du dich sehr gerne bei mir [melden](mailto:liam.schenk@bluewin.ch?subject=[Feedback]).
+Vielen Dank, dass du dir die Zeit genommen hast, mein Portfolio anzusehen! Ich freue mich immer über [Feedback](mailto:liam.schenk@bluewin.ch?subject=[Feedback]) und neue Ideen. Falls dir etwas auffällt, das verbessert werden könnte oder nicht richtig funktioniert, lass es mich gerne wissen!
