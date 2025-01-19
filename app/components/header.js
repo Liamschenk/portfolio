@@ -8,21 +8,17 @@ export default function Header({ activeSection, handleNavigation }) {
           <li className={styles.listItem}>
             <a onClick={() => handleNavigation("index")}>Liam Schenk</a>
           </li>
-          <li className={styles.listItem}>
+          <li className={`${styles.listItem} alignCenter`}>
             <a
-              className={`${
-                activeSection === "index" ? styles.active : ""
-              } alignCenter`}
+              className={activeSection === "index" ? styles.active : ""}
               onClick={() => handleNavigation("index")}
             >
               Index
             </a>
           </li>
-          <li className={styles.listItem}>
+          <li className={`${styles.listItem} alignRight`}>
             <a
-              className={`${
-                activeSection === "about" ? styles.active : ""
-              } alignRight`}
+              className={activeSection === "about" ? styles.active : ""}
               onClick={() => handleNavigation("about")}
             >
               Über
