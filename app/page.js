@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Header from "./components/Header";
-import Projects from "./components/Projects";
-import About from "./components/About";
+import Header from "./components/header";
+import Projects from "./components/projects";
+import About from "./components/about";
 
 export default function App() {
   const [showAbout, setShowAbout] = useState(false);

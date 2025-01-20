@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import ReactMarkdown from "react-markdown";
-import DraggableSlideshow from "../components/DraggableSlideshow";
+import Slideshow from "../components/slideshow";
 import styles from "../styles/projects.module.css";
 
 export default function Projects({ data, activeProject, handleProjectClick }) {
@@ -46,7 +46,7 @@ export default function Projects({ data, activeProject, handleProjectClick }) {
             </div>
 
             {/* Draggable Slideshow */}
-            <DraggableSlideshow
+            <Slideshow
               attachments={project.attachments}
               ref={(el) => (slideshowRefs.current[index] = el)} // Attach ref
             />

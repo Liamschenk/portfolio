@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import styles from "../styles/projects.module.css";
 
-export default function DraggableSlideshow({ attachments }) {
+export default function Slideshow({ attachments }) {
   const slideshowRef = useRef(null);
 
   useEffect(() => {

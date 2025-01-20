@@ -83,11 +83,6 @@
     grid-template-columns: 12.5% 75% 12.5%;
   }
 
-  .content {
-    width: 87.5%;
-    margin-left: 12.5%;
-  }
-
   .description {
     width: 87.5%;
   }
@@ -101,6 +96,11 @@
 @media (min-width: 481px) and (max-width: 768px) {
   .projectHeader {
     grid-template-columns: 12.5% 62.5% 25%;
+  }
+
+  .content {
+    width: 87.5%;
+    margin-left: 12.5%;
   }
 
   .description {
