@@ -1,45 +1,61 @@
 import { useEffect } from "react";
-import styles from "../styles/about.module.css"; // Import about styles
+import ReactMarkdown from "react-markdown";
+import styles from "../styles/about.module.css";
 
 export default function About({ data }) {
+  //Trigger staggered animation
   useEffect(() => {
-    const sections = document.querySelectorAll(`.${styles.section}`);
+    const hiddenSections = document.querySelectorAll(
+      `.${styles.hiddenSection}`
+    );
 
-    sections.forEach((section, index) => {
+    hiddenSections.forEach((section, index) => {
       setTimeout(() => {
-        section.classList.add(styles.sectionActive);
+        section.classList.add(styles.visibleSection);
+        section.classList.remove(styles.hiddenSection);
       }, index * 150); // Delay each section's animation
     });
   }, []); // Run once when the component mounts
 
   return (
     <div className={styles.about}>
-      <section className={`${styles.section} spacingBLarge`}>
-        <h1 className="spacingBSmall">Über</h1>
-        <p className={styles.description}>{data.about?.description}</p>
+      {/* About Section */}
+      <section className={`${styles.hiddenSection} spacingBLarge`}>
+        <h1 className="spacingBSmall">{data.about?.title}</h1>
+        <ReactMarkdown className={styles.description}>
+          {data.about?.description}
+        </ReactMarkdown>
       </section>
-      <section className={`${styles.section} spacingBLarge`}>
-        <h1 className="spacingBSmall">Kontakt</h1>
-        {data.contact?.map((contact, index) => (
-          <div key={index} className={styles.sectionGrid}>
+
+      {/* Contact Section */}
+      <section className={`${styles.hiddenSection} spacingBLarge`}>
+        <h1 className="spacingBSmall">{data.contact?.title}</h1>
+        {data.contact?.entries.map((contact, index) => (
+          <div key={index} className={styles.gridSection}>
             <p>{contact.name}:</p>
-            <a href={contact.url}>{contact.handle}</a>
+            <a href={contact.url} target="_blank" className={styles.link}>
+              {contact.handle}
+            </a>
           </div>
         ))}
       </section>
-      <section className={`${styles.section} spacingBLarge`}>
-        <h1 className="spacingBSmall">Berufserfahrung</h1>
-        {data.experience?.map((experience, index) => (
-          <div key={index} className={styles.sectionGrid}>
+
+      {/* Experience Section */}
+      <section className={`${styles.hiddenSection} spacingBLarge`}>
+        <h1 className="spacingBSmall">{data.experience?.title}</h1>
+        {data.experience?.entries.map((experience, index) => (
+          <div key={index} className={styles.gridSection}>
             <p>{experience.timespan}</p>
             <p>{experience.name}</p>
           </div>
         ))}
       </section>
-      <section className={`${styles.section} spacingBLarge`}>
-        <h1 className="spacingBSmall">Ausbildung</h1>
-        {data.education?.map((education, index) => (
-          <div key={index} className={styles.sectionGrid}>
+
+      {/* Education Section */}
+      <section className={`${styles.hiddenSection} spacingBLarge`}>
+        <h1 className="spacingBSmall">{data.education?.title}</h1>
+        {data.education?.entries.map((education, index) => (
+          <div key={index} className={styles.gridSection}>
             <p>{education.timespan}</p>
             <p>{education.name}</p>
           </div>

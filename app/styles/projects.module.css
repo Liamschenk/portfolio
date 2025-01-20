@@ -1,17 +1,17 @@
 /* Project view */
-.header {
+.projectHeader {
   display: grid;
-  grid-template-columns: 5% 80% 15%;
+  grid-template-columns: 6.25% 81.25% 12.5%;
 }
 
-.header:hover {
+.projectHeader:hover {
   cursor: pointer;
 }
 
 /* Project content */
 .content {
-  width: 95%;
-  margin-left: 5%;
+  width: 93.75%;
+  margin-left: 6.25%;
   max-height: 0;
   opacity: 0;
   overflow: hidden;
@@ -25,9 +25,10 @@
 }
 
 .description {
-  width: 45%;
+  width: 37.5%;
 }
 
+/* Slideshow styling */
 .slideshow {
   display: flex;
   gap: var(--spacing-regular);
@@ -38,14 +39,12 @@
   -webkit-user-drag: none;
 }
 
-.slideshow::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, and Edge */
-}
-
+/* Add dragging hand */
 .slideshow.dragging {
   cursor: grabbing;
 }
 
+/* Image and video styling */
 .slideshow img,
 .slideshow video {
   height: 450px;
@@ -61,34 +60,55 @@
   transition: opacity 0.25s ease-out;
 }
 
+.slideshow::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Edge */
+}
+
 /* Transition states */
-.header {
+.hiddenProject {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-.headerActive {
+.visibleProject {
   opacity: 1;
   transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-/* Smartphone breakpoint */
+/* Breakpoints */
 @media (max-width: 480px) {
-  .header {
-    grid-template-columns: 10% 75% 15%;
+  .projectHeader {
+    grid-template-columns: 12.5% 75% 12.5%;
   }
+
   .content {
-    width: 90%;
-    margin-left: 10%;
+    width: 87.5%;
+    margin-left: 12.5%;
   }
 
   .description {
-    width: 85%;
+    width: 87.5%;
   }
 
   .slideshow img,
   .slideshow video {
     height: 300px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .projectHeader {
+    grid-template-columns: 12.5% 62.5% 25%;
+  }
+
+  .description {
+    width: 62.5%;
+  }
+
+  .slideshow img,
+  .slideshow video {
+    height: 350px;
   }
 }

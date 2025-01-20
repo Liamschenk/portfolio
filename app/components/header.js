@@ -1,4 +1,4 @@
-import styles from "../styles/header.module.css"; // Import header styles
+import styles from "../styles/header.module.css";
 
 export default function Header({ activeSection, handleNavigation }) {
   return (

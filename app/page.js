@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import About from "./components/about"; // Import About component
-import Projects from "./components/projects"; // Import Projects component
-import Header from "./components/header"; // Import Header component
+import Header from "./components/Header";
+import Projects from "./components/Projects";
+import About from "./components/About";
 
 export default function App() {
   const [showAbout, setShowAbout] = useState(false);
@@ -33,11 +33,11 @@ export default function App() {
   };
 
   if (!data) {
-    return <div>Nur noch 1 Sekunde… okay, vielleicht 3</div>;
+    return <p>Nur noch 1 Sekunde… okay, vielleicht 3</p>;
   }
 
   return (
-    <div>
+    <>
       {/* Render the Header component */}
       <Header
         activeSection={activeSection}
@@ -45,15 +45,17 @@ export default function App() {
       />
       <main>
         {showAbout ? (
-          <About data={data} /> // Pass data to About component
+          // Pass data to About component
+          <About data={data} />
         ) : (
+          // Pass data and project handling functions to Projects component
           <Projects
             data={data}
             activeProject={activeProject}
             handleProjectClick={handleProjectClick}
-          /> // Pass data and project handling functions to Projects component
+          />
         )}
       </main>
-    </div>
+    </>
   );
 }

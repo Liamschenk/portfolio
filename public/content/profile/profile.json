@@ -1,89 +1,117 @@
 {
   "about": {
+    "title": "Über",
     "name": "Liam Schenk",
-    "description": "Hi, ich bin Liam. Ich interessiere mich sehr für Grafik- und Poster design. Ich höre gerne Musik und Podcasts."
+    "description": "Hi, ich bin Liam, lernender Mediamatiker bei Swisscom. Ich interessiere mich sehr für Grafik- und Posterdesign. Ich höre gerne Musik und Podcasts."
   },
-  "contact": [
-    {
-      "name": "E-Mail",
-      "handle": "Liam.schenk@bluewin.ch",
-      "url": "mailto:liam.schenk@bluewin.ch"
-    },
-    {
-      "name": "LinkedIn",
-      "handle": "Liam Schenk",
-      "url": "http://www.linkedin.com/in/liamschenk"
-    },
-    {
-      "name": "Are.na",
-      "handle": "Liam Schenk",
-      "url": "https://www.are.na/liam-schenk"
-    },
-    {
-      "name": "GitHub",
-      "handle": "Liam Schenk",
-      "url": "https://github.com/liamschenk/portfolio"
-    }
-  ],
-  "experience": [
-    {
-      "name": "Mediamatiker EFZ bei Swisscom",
-      "timespan": "2021 — Jetzt",
-      "location": "Bern"
-    }
-  ],
-  "education": [
-    {
-      "name": "Mediamatiker EFZ bei BBZ CFP Biel-Bienne",
-      "timespan": "2021 — Jetzt",
-      "location": "Biel/Bienne"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Samsung Galaxy Ring — Flyer",
-      "description": "Für den neuen Samsung Galaxy Ring habe ich einen doppelseitigen Flyer gestaltet, der in allen Swisscom Shops ausliegt. Der Flyer informiert Kunden über das Sizing Kit, das sie vorab nutzen müssen, um die passende Grösse zu finden.",
-      "timespan": "2024",
-      "attachments": [
-            {
-              "type": "image",
-              "url": "/content/media/galaxy-ring-1.png"
-            },
-            {
-              "type": "image",
-              "url": "/content/media/galaxy-ring-2.png"
-            }
-          ]
-    },
-    {
-      "name": "Glücksmaschine — Animation & Screensaver",
-      "description": "Für den Swisscom Shop Cornavin habe ich eine Animation für die Glücksmaschine und einen Screensaver erstellt. Vor Ort konnten Kunden den QR-Code scannen und tolle Preise gewinnen.",
-      "timespan": "2024",
-      "attachments": [
-            {
-              "type": "video",
-              "url": "/content/media/gluecksmaschine-1.mp4"
-            },
-            {
-              "type": "image",
-              "url": "/content/media/gluecksmaschine-2.png"
-            }
-          ]
-    },
-    {
-      "name": "Liam Schenk — Portfolio",
-      "description": "Dieses Portfolio habe ich innerhalb eines Tages mit der Hilfe von ChatGPT und viel Geduld erstellt. Die Inhalte werden dynamisch aus einer JSON-Datei geladen und können dank Next.js schnell und unkompliziert angepasst oder erweitert werden.",
-      "timespan": "Fortlaufend",
-      "attachments": [
-            {
-              "type": "image",
-              "url": "/content/media/portfolio-1.png"
-            },
-            {
-              "type": "image",
-              "url": "/content/media/portfolio-2.png"
-            }
-          ]
-    }
-  ]
+  "contact": {
+    "title": "Kontakt",
+    "entries": [
+      {
+        "name": "E-Mail",
+        "handle": "Liam.schenk@bluewin.ch",
+        "url": "mailto:liam.schenk@bluewin.ch"
+      },
+      {
+        "name": "LinkedIn",
+        "handle": "Liam Schenk",
+        "url": "http://www.linkedin.com/in/liamschenk"
+      },
+      {
+        "name": "Are.na",
+        "handle": "Liam Schenk",
+        "url": "https://www.are.na/liam-schenk"
+      },
+      {
+        "name": "GitHub",
+        "handle": "Liam Schenk",
+        "url": "https://github.com/liamschenk/portfolio"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projekte",
+    "entries": [
+      {
+        "name": "Samsung Galaxy Ring — Flyer",
+        "description": "Für den neuen Samsung Galaxy Ring habe ich einen doppelseitigen Flyer gestaltet, der in allen Swisscom Shops ausliegt. Der Flyer informiert Kunden über das Sizing Kit, das sie vorab nutzen müssen, um die passende Grösse zu finden.",
+        "timespan": "2024",
+        "attachments": [
+              {
+                "type": "image",
+                "url": "/content/media/galaxy-ring-1.png"
+              },
+              {
+                "type": "image",
+                "url": "/content/media/galaxy-ring-2.png"
+              }
+            ]
+      },
+      {
+        "name": "Glücksmaschine — Animation & Screensaver",
+        "description": "Für den Swisscom Shop Cornavin habe ich eine Animation für die Glücksmaschine und einen Screensaver erstellt. Vor Ort konnten Kunden den QR-Code scannen und tolle Preise gewinnen.",
+        "timespan": "2024",
+        "attachments": [
+              {
+                "type": "video",
+                "url": "/content/media/gluecksmaschine-1.mp4"
+              },
+              {
+                "type": "image",
+                "url": "/content/media/gluecksmaschine-2.png"
+              }
+            ]
+      },
+      {
+        "name": "Liam Schenk — Portfolio",
+        "description": "Dieses Portfolio habe ich innerhalb eines Tages mit der Hilfe von ChatGPT und viel Geduld erstellt. Die Inhalte werden dynamisch aus einer JSON-Datei geladen und können dank Next.js schnell und unkompliziert angepasst oder erweitert werden.",
+        "timespan": "Fortlaufend",
+        "attachments": [
+              {
+                "type": "image",
+                "url": "/content/media/portfolio-1.png"
+              },
+              {
+                "type": "image",
+                "url": "/content/media/portfolio-2.png"
+              },
+              {
+                "type": "image",
+                "url": "/content/media/portfolio-3.png"
+              }
+            ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Berufserfahrung",
+    "entries": [
+      {
+        "name": "Lernender Mediamatiker EFZ bei Swisscom",
+        "timespan": "2021 — Jetzt",
+        "location": "Bern"
+      }
+    ]
+  },
+  "education": {
+    "title": "Ausbildung",
+    "entries": [
+      {
+        "name": "Lernender Mediamatiker EFZ bei BBZ CFP Biel-Bienne",
+        "timespan": "2021 — Jetzt",
+        "location": "Biel/Bienne"
+      }
+    ]
+  },
+  "volunteering": {
+    "title": "Freiwillige Tätigkeiten",
+    "entries": [
+      {
+        "name": "First Steps bei Swisscom",
+        "timespan": "2023 — 2023",
+        "location": "Bern",
+        "description": "Im August 2023 habe ich bei beiden First Steps der Swisscom unterstützt, wo ich die neuen Lernenden in das Unternehmen eingeführt und ihnen wichtige Informationen sowie nützliche Tipps weitergegeben habe.\n\n* Ich habe die neuen Lernenden beim Einrichten ihrer IT-Geräte angeleitet und unterstützt.\n* Ich habe Präsentationen zu verschiedenen Themen gehalten und mein Wissen weitergegeben."
+      }
+    ]
+  }
 }

@@ -6,6 +6,7 @@
   margin: 0;
 }
 
+/* Root variables and light/dark mode */
 :root {
   --background: #ffffff;
   --foreground: #000000;
@@ -22,9 +23,7 @@
     --background: #000000;
     --foreground: #ffffff;
   }
-}
 
-@media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -48,7 +47,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Font properties */
+/* Text styling */
 h1 {
   font-size: var(--font-size-regular);
   font-weight: var(--font-weight-regular);
@@ -70,7 +69,7 @@ a:hover {
   cursor: pointer;
 }
 
-/* Text alignments */
+/* Alignment classes */
 .alignCenter {
   text-align: center;
 }
@@ -96,9 +95,15 @@ a:hover {
   margin-bottom: var(--spacing-extra-large);
 }
 
-/* Smartphone breakpoint */
+/* Breakpoints */
 @media (max-width: 480px) {
   body {
     padding: var(--spacing-small);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    padding: var(--spacing-regular);
   }
 }

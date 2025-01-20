@@ -1,41 +1,54 @@
+/* About view */
 .description {
-  width: 45%;
+  width: 37.5%;
 }
 
-.sectionGrid {
+.gridSection {
   display: grid;
-  grid-template-columns: 10% 90%;
+  grid-template-columns: 12.5% 87.5%;
 }
 
-.about a {
+/* Link styling */
+.link {
   text-decoration: underline;
 }
 
-.about a:hover {
+.link:hover {
   text-decoration: none;
 }
 
 /* Transition states */
-.section {
+.hiddenSection {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-.sectionActive {
+.visibleSection {
   opacity: 1;
   transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-/* Smartphone breakpoint */
+/* Breakpoints */
 @media (max-width: 480px) {
   .description {
-    width: 85%;
+    width: 87.5%;
   }
 
-  .sectionGrid {
+  .gridSection {
     display: flex;
     gap: var(--spacing-regular);
     flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .description {
+    width: 62.5%;
+  }
+
+  .gridSection {
+    grid-template-columns: 25% 75%;
   }
 }

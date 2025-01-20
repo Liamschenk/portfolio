@@ -1,3 +1,4 @@
+/* Header */
 .list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -9,8 +10,4 @@
 
 .active {
   text-decoration: underline;
-}
-
-/* Smartphone breakpoint */
-@media (max-width: 480px) {
 }
